@@ -26,3 +26,4 @@ print(text)
 print(text.count(restricted_word))
 text = text.replace(restricted_word.lower(), "*" * len(restricted_word))
 print(text)
+
